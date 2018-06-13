@@ -1,0 +1,225 @@
+a{text-decoration:none}
+ body{margin:0;}
+#divmain{
+  width:1262.67px;
+  height: 4000px;
+    background-color:#F5F5F5;/*设置背景色*/
+  margin-left:auto;
+  margin-right:auto;  /*边界左自动，右自动是居中*/
+  
+}
+#divheadbefore{
+   width:1264px;
+    height:32px;
+    background-color:#333333;/*设置背景色*/
+  margin-left:auto;
+  margin-right:auto;  /*边界左自动，右自动是居中*/
+ font-size: 12;
+  margin:0;
+  color: white;
+  float: left;
+}
+#divheadbefore1{
+   width:641px;
+    height:25px;
+    background-color:#333333;/*设置背景色*/
+  margin-left:141px;
+  margin-right:auto;  /*边界左自动，右自动是居中*/
+  
+
+   margin-top:7px; 
+  color: white;
+    float: left;
+}
+#divheadbefore2{
+   width:100px;
+    height:25px;
+    background-color:#333333;/*设置背景色*/
+  margin-left:auto;
+  margin-right:auto;  /*边界左自动，右自动是居中*/
+
+  color: white;
+   margin-top:7px;
+    float: left;
+
+}
+#divheadbefore3{
+   width:160px;
+    height:25px;
+    background-color:#333333;/*设置背景色*/
+  margin-left:auto;
+  margin-right:auto;  /*边界左自动，右自动是居中*/
+
+  color: white;
+   margin-top:7px;
+    float: left;
+
+}
+#acolor{
+   color: white;
+}
+#acolor1{
+   color:#FFD161;
+}
+#divhead{
+  width:1262.67px;
+   background-color:white;  /*设置背景色*/
+  height:80px;
+ 
+  margin-right:auto;  /*边界左自动，右自动是居中*/
+}
+#divhead1{
+  width:980px;
+   background-color:#33333;
+  height:48px;
+  margin-left:141px;
+  margin-right:auto;  /*边界左自动，右自动是居中*/
+  padding-top:16px;
+ /* margin-top:48px;*/
+}
+#divhead10{
+  width:260px;
+   background-color:#33333;
+  height:40px;
+  
+}
+.clear{
+  clear:both;
+}
+#divmid{
+  width:980px;
+   background-color:white;  /*设置背景色*/
+  font-style: 15px;
+  height:120px;
+  margin-left:141px;
+  margin-right:auto;  /*边界左自动，右自动是居中*/
+  margin-top:12px;
+  
+}
+#divmidnext{
+  width:660px;
+   background-color:white;  /*设置背景色*/
+  height:50px;
+  margin-left:141px;
+  margin-right:auto;  /*边界左自动，右自动是居中*/
+  margin-top:12px;
+  
+}
+#divmidnext1{
+  width:140px;
+  
+  height:50px;
+  margin-left:41px;
+  margin-right:auto;  /*边界左自动，右自动是居中*/
+  margin-top:10px;
+  float: left;
+  font-size: 23px;
+}
+#divmid1{
+  padding: 20px;
+width:940px;
+  /* background-color:red; */ /*设置背景色*/
+  font-style: 15px;
+  height:80px;
+}
+#divmid11{
+ 
+width:106px;
+ float: left;
+
+  height:80px;
+}
+#divmid12{
+width:286px;
+  /*background-color:green;  /*/*设置背景色*/
+  height:60px;
+  float: left;
+  margin-left:20px;
+  margin-right:auto;  /*边界左自动，右自动是居中*/
+  margin-top:10px;
+  font-style: 15px;
+}
+#divmid13{
+width:140px;
+ /* background-color:green;*/  /*设置背景色*/
+  height:60px;
+  float: left;
+  margin-left:20px;
+  margin-right:auto;  /*边界左自动，右自动是居中*/
+  margin-top:10px;
+}
+#divmid14{
+width:120px;
+ /* background-color:green; */ /*设置背景色*/
+  height:60px;
+  float: left;
+  margin-left:20px;
+  margin-right:auto;  /*边界左自动，右自动是居中*/
+  margin-top:10px;
+}
+#divmid15{
+width:110px;
+ /* background-color:green; */ /*设置背景色*/
+  height:60px;
+  float: left;
+  margin-left:20px;
+  margin-right:auto;  /*边界左自动，右自动是居中*/
+  margin-top:10px;
+}
+#divmid121{
+width:286px;
+  
+  margin-top:10px;
+}
+#divlist{
+  width:660px;
+
+   background-color:white;  /*设置背景色*/
+    margin-left:141px;
+  margin-right:auto;  /*边界左自动，右自动是居中*/
+  margin-top:12px;
+}
+#divlist1{
+  width:216px;
+  height:252px;
+  /* background-color:green;*/  /*设置背景色*/
+  
+}
+#preview{
+  
+  /* background-color:red;*/  /*设置背景色*/
+  
+}
+#scroll-loading{
+  width:170px;
+  height:127px;
+  margin-left:25px;
+  margin-top:20px;
+}
+#content{
+  margin-top:10px;
+  margin-left:25px;
+
+
+}
+#rankclearfix{
+margin-top:5px;
+font-style: 10px;
+}
+#price{
+  margin-top:5px;
+ /* background: red;*/
+}
+#divmid12font{
+  font-size:12px;
+}
+#divmid13font{
+  font-size:25px;
+}
+#price1{
+  float:left;
+}
+#price2{
+  float:left;
+  width: 145px;
+}

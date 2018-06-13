@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+  <filter>
+    <filter-name>EncodingFilter</filter-name>
+    <filter-class>com.meituan.web.filter.EncodingFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>EncodingFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.meituan.web.servlet.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/register</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckImgServlet</servlet-name>
+    <servlet-class>com.meituan.web.servlet.CheckImgServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.meituan.web.servlet.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindAllShops</servlet-name>
+    <servlet-class>com.meituan.web.servlet.FindAllShops</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddShopServlet</servlet-name>
+    <servlet-class>com.meituan.web.servlet.AddShopServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindAllShopsServlet</servlet-name>
+    <servlet-class>com.meituan.web.servlet.FindAllShopsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditShopServlet</servlet-name>
+    <servlet-class>com.meituan.web.servlet.EditShopServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindShopByIdServlet</servlet-name>
+    <servlet-class>com.meituan.web.servlet.FindShopByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelShopServlet</servlet-name>
+    <servlet-class>com.meituan.web.servlet.DelShopServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchShopServlet</servlet-name>
+    <servlet-class>com.meituan.web.servlet.SearchShopServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShopListServlet</servlet-name>
+    <servlet-class>com.meituan.web.servlet.ShopListServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShopsPageServlet</servlet-name>
+    <servlet-class>com.meituan.web.servlet.ShopsPageServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FindCategoryServlet</servlet-name>
+    <servlet-class>com.meituan.web.servlet.FindCategoryServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CheckImgServlet</servlet-name>
+    <url-pattern>/imageCode</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindAllShops</servlet-name>
+    <url-pattern>/servlet/FindAllShops</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddShopServlet</servlet-name>
+    <url-pattern>/servlet/AddShopServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindAllShopsServlet</servlet-name>
+    <url-pattern>/servlet/FindAllShopsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditShopServlet</servlet-name>
+    <url-pattern>/servlet/EditShopServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindShopByIdServlet</servlet-name>
+    <url-pattern>/servlet/FindShopByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelShopServlet</servlet-name>
+    <url-pattern>/servlet/DelShopServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchShopServlet</servlet-name>
+    <url-pattern>/servlet/SearchShopServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShopListServlet</servlet-name>
+    <url-pattern>/servlet/ShopListServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShopsPageServlet</servlet-name>
+    <url-pattern>/servlet/ShopsPageServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FindCategoryServlet</servlet-name>
+    <url-pattern>/servlet/FindCategoryServlet</url-pattern>
+  </servlet-mapping>
+  <display-name></display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

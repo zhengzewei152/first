@@ -1,0 +1,96 @@
+a{text-decoration:none}
+
+ body{margin:0;}
+#divmain{
+  width:1292.67px;
+  height: 607px;
+    background-color:#FFFFFF;/*设置背景色*/
+  margin-left:auto;
+  margin-right:auto;  /*边界左自动，右自动是居中*/
+  
+}
+
+#divhead{
+  width:1262.67px;
+ background-color:#06C1A1;
+  height:62px;
+
+}
+#divhead1{
+  width:905px;
+  /* background-color:green;*/
+  height:53px;
+  margin-left:40px;
+  margin-right:auto;  /*边界左自动，右自动是居中*/
+    padding-top:5px;
+    float: left;
+}
+#divhead2{
+  width:277px;
+  /* background-color:green;*/
+  height:22px;
+  margin-right:auto;  /*边界左自动，右自动是居中*/
+    padding-top:20px;
+    float: left;
+    color: white;
+}
+#divhead1image{
+  width:300px;
+  
+  height:52px;
+  
+}
+#divmid{
+  width:980px;
+  /* background-color:yellow; */ /*设置背景色*/
+  height:370px;
+  margin-left:471px;
+  margin-right:auto;  /*边界左自动，右自动是居中*/
+  
+  
+}
+
+#divmid1{
+  width:270px;
+  /* background-color:red; *//*设置背景色*/
+  height:370px;
+ 
+  margin-left:115px;
+}
+
+
+
+#divmid11,#divmid14{
+ font-size: 20px;
+ color: #06C1A1;
+}
+
+#divmid12,#divmid13{
+ font-size: 11px;
+}
+
+#login-mobile,#login-verify-code,#btn{
+      width:270px;
+      height:35px;
+ 
+}
+#adivmid{
+	color:#06C1A1;
+	font-size: 13px;
+}
+
+#btn{
+  background: #06C1A1;
+}
+#divfoot{
+   width:980px;
+          /* background-color:green;*/
+          height:18px;
+          margin-left:141px;
+          margin-right:auto;  /*边界左自动，右自动是居中*/
+            padding-top:50px;
+}
+#footfont{
+  font-size: 13px;
+  color: B39999;
+}
