@@ -142,4 +142,24 @@
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>BusinessRegistServlet</display-name>
+    <servlet-name>BusinessRegistServlet</servlet-name>
+    <servlet-class>com.meituan.web.servlet.BusinessRegistServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BusinessRegistServlet</servlet-name>
+    <url-pattern>/BusinessRegistServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>BusinessLoginServlet</display-name>
+    <servlet-name>BusinessLoginServlet</servlet-name>
+    <servlet-class>com.meituan.web.servlet.BusinessLoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BusinessLoginServlet</servlet-name>
+    <url-pattern>/BusinessLoginServlet</url-pattern>
+  </servlet-mapping>
 </web-app>

@@ -38,11 +38,13 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
          <div  id="divmid2">
                     <br><br>
           <span id="divmid11">商家注册&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="adminlogin.jsp" id="adivmid">已有账号，去登录 >></a></span> <br><br>
-          <span><input id="login-mobile"  name="mobile" value="" placeholder="请输入用户名" type="text"></span><br><br>
-          <span><input name="commitpassword" id="login-verify-code" autocomplete="off" value="" placeholder="请输入密码" type="password"></span><br><br>
-          <span><input id="login-mobile"  name="mobile" value="" placeholder="请输入店铺名" type="text"></span><br><br>
+          <form method="post" action="BusinessRegistServlet">
+          <span><input id="login-mobile"  name="business_name" value="" placeholder="请输入用户名" type="text"></span><br><br>
+          <span><input name="business_password" id="login-verify-code" autocomplete="off" value="" placeholder="请输入密码" type="password"></span><br><br>
+          <span><input id="login-mobile"  name="business_shopname" value="" placeholder="请输入店铺名" type="text"></span><br><br>
           <span><input id="btn" name="" value="同意并注册" type="submit"></span><br><br>
            <span id="divmid13">已同意《美团网用户协议》</span><br><br>
+           </form>
           </div> 
   </div>
 

@@ -9,7 +9,20 @@
 <link rel="stylesheet" href="css/main.css" type="text/css" />
 
 <script type="text/javascript" src="js/my.js">
-	
+	onload = function(){
+		setInterval(go,1000);
+	}
+	var x = 3;
+	function go(){
+		x--;
+		if(x > 0){
+			document.getElementById("second").innerHTML = x;
+		}else{
+			var localObj = window.location;
+	    	var contextPath = localObj.pathname.split("/")[1];
+	    	location.href= "/"+ contextPath + '/adminlogin.jsp';
+		}
+	}
 </script>
 </head>
 
@@ -30,8 +43,9 @@
 								src="images/IconTexto_WebDev_009.jpg" width="128" height="128" />
 							</td>
 							<td style="padding-top:30px"><font
-								style="font-weight:bold; color:#FF0000">注册成功,别忘记激活帐户啊</font><br />
-								<br /> <a href="index.jsp"><span id="second">5</span>秒后自动为您转跳回首页</a>
+								style="font-weight:bold; color:#FF0000">注册成功</font><br />
+								<br /> 
+								<a href="adminlogin.jsp"><span id="second">3</span>秒后自动为您转跳回登录商家登录界面</a>
 							</td>
 						</tr>
 					</table>
